@@ -2,6 +2,8 @@
 
 program to: 1. extract endogenous candidate Cas9/gRNA binding sites from a target sequence, and 2. screen them for orthogonality to context sequence (ex.: genome) 
 
+**Matlab Branch**
+
 version 1.0 (Aug. 21, 2015) 
 
 -runs in MATLAB (built in R2014a)
@@ -11,3 +13,10 @@ version 1.0 (Aug. 21, 2015)
 -currently requires FASTA file(s) saved locally (input the full path to the file if it's not in same directory as the scripts). Future versions should be able to pull the sequences off genbank
 
 -uses subroutines GG_library.m  (for 1.) and scan_SeqC.m (for 2.). 
+
+
+**R Branch**
+version 0.1 (Aug. 21, 2015) 
+
+-start of import and comparison idea. Want to learn to use alignment for Hamming distance score.
+
