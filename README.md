@@ -3,7 +3,6 @@
 program to: 1. extract endogenous candidate Cas9/gRNA binding sites from a target sequence, and 2. screen them for orthogonality to context sequence (ex.: genome) 
 
 **Matlab Branch**
-
 version 1.0 (Aug. 21, 2015) 
 
 -runs in MATLAB (built in R2014a)
