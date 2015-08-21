@@ -1,10 +1,9 @@
 # CRISPR_targ
-scripts to 1) extract endogenous candidate Cas9/gRNA binding sites from a target sequence, and 2) screen them for orthogonality to context sequence (ex.: genome) 
+program to: 1. extract endogenous candidate Cas9/gRNA binding sites from a target sequence, and 2. screen them for orthogonality to context sequence (ex.: genome) 
 
-
-current version (Aug. 20, 2015) 
-
-main script CRISP_targ.m
-
+version 1.0 (Aug. 21, 2015) 
 -runs in MATLAB (built in R2014a)
--requires FASTA file(s) supplied on hard drive (input the full path to the file if it's not in same directory as the scripts)
+
+-main script is CRISP_targ.m
+-currently requires FASTA file(s) saved locally (input the full path to the file if it's not in same directory as the scripts). Future versions should be able to pull the sequences off genbank
+-uses subroutines GG_library.m  (for 1.) and scan_SeqC.m (for 2.). 
