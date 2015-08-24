@@ -1,6 +1,6 @@
 # CRISPR_targ
 
-Program to: 1. extract endogenous candidate Cas9/gRNA binding sites from a target sequence, and 2. screen them for orthogonality to context sequence (ex.: genome) 
+Program to: 1. extract endogenous candidate Cas9/gRNA binding sites from a target sequence (ex.: gene), and 2. screen them for orthogonality to context sequence (ex.: genome) 
 
 *Matlab branch:*
 
