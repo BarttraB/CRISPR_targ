@@ -2,11 +2,9 @@
 
 Program to: 1. extract endogenous candidate Cas9/gRNA binding sites from a target sequence, and 2. screen them for orthogonality to context sequence (ex.: genome) 
 
-Version 1.0 (Aug. 21, 2015) 
+*Matlab branch:*
 
-Matlab branch:
-
-(coded in R2014a)
+Made in R2014a; Version 1.3 (Aug. 24, 2015) 
 
 -main script to run is CRISP_targ
 
